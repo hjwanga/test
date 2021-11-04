@@ -14,10 +14,6 @@ int main() {
         Foo();
         Foo();
         Foo();
-        Foo();
-        Foo();
-        Foo();
-        Foo();
     }
     else {
         // Do other things
