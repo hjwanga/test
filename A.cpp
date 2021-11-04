@@ -37,3 +37,11 @@ int main() {
 
     return 0;
 }
+
+static void Foo1(void) {
+
+}
+
+static void Foo2(void) {
+
+}
