@@ -6,21 +6,33 @@ static void Foo(void) {
 
 int main() {
     bool flag = true;
-    if(flag) {
-        // Do something
-        Foo();
-        Foo();
-        Foo();
-        Foo();
-        Foo();
-        Foo();
-        Foo();
-        Foo();
-        Foo();
-        Foo();
-    }
-    else {
-        // Do other things
+    int choice = 2;
+    switch(choice) {
+        case 1:
+            Foo();
+            break;
+        case 2:
+            Foo();
+            Foo();
+            break;
+        default:
+            if(flag) {
+                // Do something
+                Foo();
+                Foo();
+                Foo();
+                Foo();
+                Foo();
+                Foo();
+                Foo();
+                Foo();
+                Foo();
+                Foo();
+            }
+            else {
+                // Do other things
+            }
+            break;
     }
 
     return 0;
